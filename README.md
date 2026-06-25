@@ -70,7 +70,7 @@ python3 tfim_qsl_simulation.py
 
 ---
 
-Citation
+## Citation
 If you use this framework or hardware-benchmarking layout in your research, please cite our peer-reviewed paper:
 
 
@@ -86,7 +86,7 @@ If you use this framework or hardware-benchmarking layout in your research, plea
 
 ---
 
-Acknowledgments
+## Acknowledgments
 We express our gratitude to the IBM Quantum community for providing access to utility-scale Heron computing architectures (ibm_fez) that made this experimental validation possible.
 
 ---
