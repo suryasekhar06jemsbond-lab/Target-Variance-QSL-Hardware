@@ -52,3 +52,42 @@ The hardware data confirms the major analytical milestones of the manuscript:
 
 ---
 
+How to Run on Real Hardware
+Install dependencies:
+
+Bash
+pip install qiskit qiskit-ibm-runtime mthree matplotlib numpy
+Configure your IBM Quantum credentials:
+
+Python
+from qiskit_ibm_runtime import QiskitRuntimeService
+QiskitRuntimeService.save_account(channel="ibm_quantum", token="YOUR_IBM_API_TOKEN")
+Execute the validation pipeline:
+
+Bash
+python3 tfim_qsl_simulation.py
+
+---
+
+Citation
+If you use this framework or hardware-benchmarking layout in your research, please cite our peer-reviewed paper:
+
+Code snippet
+@article{roy2026target,
+  title={Target-Variance Quantum Speed Limits from Projective Fidelity Reduction},
+  author={Roy, Surya Sekhar},
+  journal={International Journal of Modern Physics B},
+  volume={Accepted Manuscript},
+  number={JPB20080030R3},
+  year={2026},
+  publisher={World Scientific Publishing Company}
+}
+
+---
+
+Acknowledgments
+We express our gratitude to the IBM Quantum community for providing access to utility-scale Heron computing architectures (ibm_fez) that made this experimental validation possible.
+
+---
+
+
