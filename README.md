@@ -54,16 +54,16 @@ The hardware data confirms the major analytical milestones of the manuscript:
 
 How to Run on Real Hardware
 Install dependencies:
-
+---
 Bash
 pip install qiskit qiskit-ibm-runtime mthree matplotlib numpy
 Configure your IBM Quantum credentials:
-
+---
 Python
 from qiskit_ibm_runtime import QiskitRuntimeService
 QiskitRuntimeService.save_account(channel="ibm_quantum", token="YOUR_IBM_API_TOKEN")
 Execute the validation pipeline:
-
+---
 Bash
 python3 tfim_qsl_simulation.py
 
