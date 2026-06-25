@@ -91,4 +91,22 @@ We express our gratitude to the IBM Quantum community for providing access to ut
 
 ---
 
+## Results & Validation
 
+Below is the macro-level data extracted from the 156-qubit **ibm_fez** processor, confirming the asymptotic separation predicted by Theorem 5.2 as the many-body coupling strength scales extensively:
+
+![Quantum Speed Limit Validation Benchmark](qsl_validation_plot_3.png)
+
+## Hardware Compilation Profile
+
+The transpiled circuit diagram below illustrates the native pulse-level gate routing on the IBM Quantum Heron architecture. By optimizing the physical register map, the compiler enforces a clean nearest-neighbor coupling loop with zero SWAP gate overhead:
+
+![Heron Chip Circuit Native Compilation](circuit-d8uhclsbp3hs73861d7g_3.png)
+
+## Raw Measurement Diagnostics
+
+To evaluate the projective fidelity reduction threshold ($F_* = 0.15$), raw binary distributions are unpacked and corrected using Matrix-Free Measurement Mitigation (M3). Below is a representative diagnostic histogram of single-outcome state frequencies sampled from the hardware backend:
+
+![Error Mitigated Hardware Measurement Histogram](job_d8uhc4ctqbtc73d1qdmg_results_c_3.png)
+
+---
