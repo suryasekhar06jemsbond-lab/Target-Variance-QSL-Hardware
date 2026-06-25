@@ -52,8 +52,9 @@ The hardware data confirms the major analytical milestones of the manuscript:
 
 ---
 
-*How to Run on Real Hardware
-**Install dependencies:
+## How to Run on Real Hardware
+
+* **Install dependencies:
 
 Bash
 pip install qiskit qiskit-ibm-runtime mthree matplotlib numpy
