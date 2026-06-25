@@ -72,7 +72,7 @@ python3 tfim_qsl_simulation.py
 Citation
 If you use this framework or hardware-benchmarking layout in your research, please cite our peer-reviewed paper:
 
-Code snippet
+
 @article{roy2026target,
   title={Target-Variance Quantum Speed Limits from Projective Fidelity Reduction},
   author={Roy, Surya Sekhar},
