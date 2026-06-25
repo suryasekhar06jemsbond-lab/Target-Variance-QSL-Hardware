@@ -4,7 +4,7 @@ This repository provides the official open-source Qiskit implementation and expe
 
 The core theoretical architecture was peer-reviewed and accepted for publication in the **International Journal of Modern Physics B** (Submission No.: JPB20080030R3). This project demonstrates the practical, hardware-capable deployment of the target-variance bound on utility-scale quantum processors.
 
-## 核心突破：Commuting-Sector Invariance
+## Key Milestone：Commuting-Sector Invariance
 Traditional quantum speed limits—such as the Mandelstam-Tamm ($T_{MT}$) and Margolus-Levitin ($T_{ML}$) bounds—rely on tracking the global, evolving-state energy variance $\Delta H_{\rho(t)}$. In highly interacting many-body systems or large quantum processors, extensive background entanglement and coupling layers artificially inflate this global variance. This causes classical bounds to collapse ($T_{MT} \to 0$), yielding a trivial, uninformative zero-time speed limit that falsely implies the system can evolve instantly.
 
 This research resolves this bottleneck by deriving a detector-conditioned QSL specialized for single-outcome projective measurement channels ($\pi_{\omega}$):
